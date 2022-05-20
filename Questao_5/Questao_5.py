@@ -7,10 +7,9 @@ if (n1 % 11 == 1):
     else:
         n2 = n1 + 10.5
 else:
-    n1 = n1%11
+    n1 = n1 % 11
     if (n1 % 2 == 0 and n1 % 2 == 1):
         n2 = n1 + 5
 n2 = n2 // 2 + 5 * n2 // 3
-n1 + n2 % 2
 
-print(n1, n2)
+print(f'{n1+n2} {n1 + n2 % 2}')
