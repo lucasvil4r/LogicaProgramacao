@@ -1,1 +1,3 @@
-R:
+R: Se soubermos o tamanho de um vetor conseguimos calcular no pior caso,
+quantos elementos do vetor serão verificados (passos) tanto na busca linear
+quanto na busca binária.
