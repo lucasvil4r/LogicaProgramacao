@@ -1,11 +1,26 @@
-cont = 0
-idade = 0
-peso = 0
+x = int(input())
+y = int(input())
 
-while (peso < 5):
-    while (peso > 5):
-        cont = cont + idade
+cont_bom_dia = 0
+cont_boa_tarde =  0
+cont_boa_noite = 0
 
-idade = idade + 3
+i = 0
 
-#Laço infinito
+while i < x:
+    print("bom dia")
+    cont_bom_dia +=1
+    j = 0
+    while j < y:
+        print("boa tarde")
+        cont_boa_tarde +=1
+        j +=1
+    else:
+        i +=1
+else:
+    print("boa noite")
+    cont_boa_noite +=1
+
+print(f'bom dia = {cont_bom_dia}')
+print(f"boa tarde = {cont_boa_tarde}")
+print(f"boa noite = {cont_boa_noite}")

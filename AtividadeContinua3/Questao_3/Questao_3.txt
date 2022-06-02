@@ -1,0 +1,5 @@
+Analise o texto e indique se o que é afirmado é verdadeiro ou falso:
+"Quando um vetor é passado como argumento para uma função, qualquer
+alteração feita no parâmetro correspondente afetará o vetor original".
+
+# VERDADEIRA

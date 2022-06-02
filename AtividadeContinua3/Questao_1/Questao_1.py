@@ -1,18 +1,16 @@
-n1 = 10
-n2 = 5
-
-if (n1 % n2 > 1):
-    if (3 + 5 / n2 > 4):
-        print(n1)
-else:
-    if (n1 // n2 > 1):
-        n2 = n1 + 5
+def misterio(x, v, n):
+    i = 0
+    while i < n and v[i] != x:
+        i += 1
     else:
-        n1 = n2 + 5
+        if i < n:
+            return i
+        else:
+            return -1
+    return
 
-if ( 2 + n1 / 2 * 3 >= 18):
-    n2 = n2 % n1
-else:
-    n1 = n1 % n2
-
-print(n1+n2)
+a = ['b','x','d','v','e','r','e','p']
+r1 = misterio('e', a, 8)
+r2 = misterio('z', a, 8)
+r3 = misterio('v', a, 3)
+print(r1, r2, r3)
